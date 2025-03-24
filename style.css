@@ -63,8 +63,8 @@
 }
 
 @media (max-width: 800px) {
-    .container {
-        display: grid;
-        grid-template-columns: auto;
+    .header, .texto1, .img1, .img2, .img3, .texto2, .img4, .img5, .img6, .img7, .img8 {
+        grid-column: 1;
+        grid-row: auto;
     }
 }
