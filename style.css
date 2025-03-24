@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 90px auto auto auto 200px;
-    gap: 5px;
 
 }
 
@@ -67,4 +66,13 @@
         display: grid;
         grid-template-columns: auto;
     }
+    .img {
+        height: 300px;
+    }
 }
+
+/* .img {
+    height: 300px;
+}
+.img1 {background: url(download.jpg) center;}
+.img2 {background: url(travis.jpg) center;} */
